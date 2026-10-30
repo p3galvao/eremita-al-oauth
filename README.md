@@ -15,6 +15,7 @@ Essencial para as cron jobs (checkouts, lembretes) do Mr. Eremita.
 |---|---|
 | `index.html` | Página inicial — aparece no ecrã de consentimento OAuth |
 | `privacy.html` | Política de Privacidade — obrigatório para publicar em Production |
+| `terms.html`  | Termos de Serviço — exigido pelo Google |
 
 ## Como usar
 
@@ -24,6 +25,7 @@ Essencial para as cron jobs (checkouts, lembretes) do Mr. Eremita.
 4. Meter no Google Cloud Console → OAuth consent screen:
    - **Home page URL**: `https://<user>.github.io/eremita-al-oauth/`
    - **Privacy Policy URL**: `https://<user>.github.io/eremita-al-oauth/privacy`
+   - **Terms of Service URL**: `https://<user>.github.io/eremita-al-oauth/terms`
 5. Clicar **Publish App → In Production**
 
 ## Notas
